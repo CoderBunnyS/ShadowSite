@@ -1,0 +1,9 @@
+# .cpanel.yml
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=${HOME}/public_html
+    - npm install
+    - npm run build
+    - /bin/cp -r ${WORKSPACE}/dist/* ${DEPLOYPATH}/
