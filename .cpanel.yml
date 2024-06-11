@@ -1,6 +1,4 @@
-# .cpanel.yml
 
----
 deployment:
   tasks:
     - export DEPLOYPATH=/home/bunnjxpm/shadowmistress.com/
