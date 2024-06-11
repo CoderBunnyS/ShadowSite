@@ -3,7 +3,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=${HOME}/public_html
+    - export DEPLOYPATH=/home/bunnjxpm/shadowmistress.com/
     - npm install
     - npm run build
     - /bin/cp -r ${WORKSPACE}/dist/* ${DEPLOYPATH}/
