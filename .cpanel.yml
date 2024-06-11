@@ -1,5 +1,7 @@
-
+---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/bunnjxpm/shadowmistress.com/
-    - /bin/cp -r ${WORKSPACE}/* ${DEPLOYPATH}/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp styles.css $DEPLOYPATH
+     - /bin/cp script.js $DEPLOYPATH
