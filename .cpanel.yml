@@ -5,4 +5,3 @@ deployment:
     - /bin/cp --verbose index.html $DEPLOYPATH
     - /bin/cp --verbose styles.css $DEPLOYPATH
     - /bin/cp --verbose script.js $DEPLOYPATH
-    - /usr/bin/find assets -name "*.jpg" -exec /bin/cp --verbose {} $DEPLOYPATH \;
